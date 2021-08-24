@@ -9,7 +9,6 @@ This repo contains a fast SED fitter via sliders. To use it you have to download
 
 For dereddening the data:
 - PyAstronomy
-- quantities
 
 All data is in my OneDrive folder.
 
