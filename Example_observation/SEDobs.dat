@@ -1,0 +1,86 @@
+      84
+   lam[mic]    flux[Jy]   sigma[Jy] rem  filter        typ pointing       mag   err_mag              bibcode  comments
+     0.3516  1.5912E-02  1.5912E-04  ok  SDSS.U        CCD    0.113   13.4320    0.0010  2011yCat.2306....0A  -
+     0.3637  3.0088E-02  3.0088E-03  ??  JOHNSON.U     CCD    0.100   11.9700       NaN  1978A&AS...34..477M  -
+     0.3637  3.0088E-02  3.0088E-03  ??  JOHNSON.U     CCD    4.600   11.9700       NaN  2002yCat.2237....0D  -
+     0.4049  9.7070E-03  9.7070E-04  ??  VILNIUS.X     CCD      NaN   14.4800       NaN  1997A&AS..124..349M  -
+     0.4049  9.7070E-03  9.7070E-04  ??  VILNIUS.X     CCD      NaN   14.4800       NaN  1997A&AS..124..349M  -
+     0.4434  4.6579E-02  1.3974E-02  ??  USNOB1.B1     CCD    0.195   12.3700       NaN  2003AJ....125..984M  unreliable_zeropoint_and_transmission_profile
+     0.4434  5.2214E-02  5.2214E-03  ??  JOHNSON.B     CCD    0.100   12.2500       NaN  1978A&AS...34..477M  -
+     0.4434  5.2214E-02  5.2214E-03  ??  JOHNSON.B     CCD    4.600   12.2500       NaN  2002yCat.2237....0D  -
+     0.4660  4.6788E-02  4.6788E-03  ??  VILNIUS.Y     CCD      NaN   12.5500       NaN  1997A&AS..124..349M  -
+     0.4660  4.6788E-02  4.6788E-03  ??  VILNIUS.Y     CCD      NaN   12.5500       NaN  1997A&AS..124..349M  -
+     0.4677  6.7246E-02  6.7246E-04  ok  SDSS.G        CCD    0.113   11.8230    0.0010  2011yCat.2306....0A  -
+     0.5158  7.8594E-02  7.8594E-03  ??  VILNIUS.Z     CCD      NaN   11.8000       NaN  1997A&AS..124..349M  -
+     0.5158  7.8594E-02  7.8594E-03  ??  VILNIUS.Z     CCD      NaN   11.8000       NaN  1997A&AS..124..349M  -
+     0.5189  5.4964E-02  2.5211E-03  ok  HIPPARCOS.HP  CCD    0.196   12.0807    0.0498  1997HIP...C......0E  -
+     0.5439  1.2031E-01  1.2031E-02  ??  VILNIUS.V     CCD      NaN   11.2300       NaN  1997A&AS..124..349M  -
+     0.5439  1.2031E-01  1.2031E-02  ??  VILNIUS.V     CCD      NaN   11.2300       NaN  1997A&AS..124..349M  -
+     0.5493  5.4935E-02  2.8840E-03  ok  JOHNSON.V     CCD    0.196   12.0690    0.0570  2001KFNT...17e.409K  -
+     0.5493  9.9874E-02  9.9874E-03  ??  JOHNSON.V     CCD    0.100   11.4200       NaN  1978A&AS...34..477M  -
+     0.5493  5.8702E-02  2.0437E-02  ul  JOHNSON.V     CCD    0.760   11.9970    0.3780  2007PASP..119.1083R  -
+     0.5493  9.9874E-02  9.9874E-03  ??  JOHNSON.V     CCD    4.600   11.4200       NaN  2002yCat.2237....0D  -
+     0.6168  1.5074E-01  1.5074E-03  ok  SDSS.R        CCD    0.113   10.9510    0.0010  2011yCat.2306....0A  -
+     0.6247  1.3530E-01  1.3530E-02  ??  SDSS.RP       CCD    0.119   11.0700       NaN  2008ApJS..175..297A  -
+     0.6527  2.5072E-01  2.5072E-02  ??  VILNIUS.S     CCD      NaN   10.0400       NaN  1997A&AS..124..349M  -
+     0.6527  2.5072E-01  2.5072E-02  ??  VILNIUS.S     CCD      NaN   10.0400       NaN  1997A&AS..124..349M  -
+     0.6899  1.4451E-02  4.3354E-03  ??  USNOB1.R1     CCD    0.195   13.3200       NaN  2003AJ....125..984M  unreliable_zeropoint_and_transmission_profile
+     0.6899  2.3116E-01  2.3116E-02  ??  JOHNSON.R     CCD    0.100   10.3100       NaN  1978A&AS...34..477M  -
+     0.6899  2.3116E-01  2.3116E-02  ??  JOHNSON.R     CCD    4.600   10.3100       NaN  2002yCat.2237....0D  -
+     0.7496  2.7751E-01  2.7751E-03  ok  SDSS.I        CCD    0.113   10.2890    0.0010  2011yCat.2306....0A  -
+     0.7875  2.6217E-01  4.6603E-02  ok  COUSINS.I     CCD    0.760    9.9520    0.1930  2007PASP..119.1083R  unreliable_zeropoint
+     0.8739  5.6120E-01  5.6120E-02  ??  JOHNSON.I     CCD    0.100    9.1400       NaN  1978A&AS...34..477M  -
+     0.8739  5.6120E-01  5.6120E-02  ??  JOHNSON.I     CCD    4.600    9.1400       NaN  2002yCat.2237....0D  -
+     0.8970  3.7605E-01  3.7605E-03  ok  SDSS.Z        CCD    0.113    9.9700    0.0010  2011yCat.2306....0A  -
+     1.2393  8.4250E-01  2.0175E-02  ok  2MASS.J       CCD    0.124    8.1710    0.0260  2003yCat.2246....0C  high_quality_(A)
+     1.2431  8.5111E-01  8.5111E-02  ??  JOHNSON.J     CCD    4.600    8.2100       NaN  2002yCat.2237....0D  -
+     1.6442  1.1801E+00  1.1801E-01  ??  JOHNSON.H     CCD    4.600    7.3800       NaN  2002yCat.2237....0D  -
+     1.6495  1.3008E+00  2.7556E-02  ok  2MASS.H       CCD    0.124    7.2560    0.0230  2003yCat.2246....0C  high_quality_(A)
+     2.1639  1.3532E+00  2.9911E-02  ok  2MASS.KS      CCD    0.124    6.7340    0.0240  2003yCat.2246....0C  high_quality_(A)
+     2.1879  1.2675E+00  1.2675E-01  ??  JOHNSON.K     CCD    4.600    6.8200       NaN  2002yCat.2237....0D  -
+     3.3682  1.3203E+00  6.2017E-02  ok  WISE.W1       BOL    0.180    5.9250    0.0510  2012yCat.2311....0C  point_source
+     3.5271  1.1967E+00  1.1967E-01  ??  JOHNSON.L     CCD    4.600    5.9300       NaN  2002yCat.2237....0D  -
+     3.6000  1.0900E+00  1.0000E-02  ok   IRAC.36      BOL    0.000                      Luhman ApJ, 186:111   
+     4.5000  1.0300E+00  1.0000E-02  ok   IRAC.45      BOL    0.000                      Luhman ApJ, 186:111   
+     4.6179  1.6017E+00  3.9831E-02  ok  WISE.W2       BOL    0.180    5.0760    0.0270  2012yCat.2311....0C  point_source
+     5.0122  9.7172E-01  9.7172E-02  ??  JOHNSON.M     CCD    4.600    5.4300       NaN  2002yCat.2237....0D  -
+     5.7450  4.1590E-01  4.1590E-03  ??  IRAC.58       BOL    5.463                      2006sptz.prop30816P  -
+     5.8000  9.5000E-01  1.0000E-02  ok   IRAC.58      BOL    0.000                      Luhman ApJ, 186:111   
+     7.9158  3.7700E-01  3.7700E-03  ??  IRAC.80       BOL    5.463                      2006sptz.prop30816P  -
+     8.0000  9.2000E-01  1.0000E-02  ok   IRAC.80      BOL    0.000                      Luhman ApJ, 186:111   
+     9.0995  1.1000E+00  5.2600E-02  ok  AKARI.S9W     BOL    0.460                      2010A&A...514A...1I  high_quality
+    10.1999  7.8988E-01  7.8988E-02  ??  JOHNSON.N     CCD    4.600    4.3000       NaN  2002yCat.2237....0D  -
+    11.4099  1.0000E+00  7.0000E-02  ok  IRAS.F12      BOL    9.000                      1988IRASP.C......0J  high_quality
+    12.0730  9.3741E-01  1.2087E-02  ok  WISE.W3       BOL    0.180    3.8220    0.0140  2012yCat.2311....0C  point_source
+    19.5050  1.0510E+00  7.0000E-02  ok  AKARI.L18W    BOL    0.460                      2010A&A...514A...1I  high_quality
+    22.1943  1.0510E+00  1.9360E-02  ok  WISE.W4       BOL    0.180    2.2520    0.0200  2012yCat.2311....0C  most_likely_not_variable_(0,_0=certainly_not-5=probably_not);_point_source
+    23.6108  1.2100E+00  1.0890E-01  ok  IRAS.F25      BOL    9.000                      1988IRASP.C......0J  high_quality
+    24.0000  9.4000E-01  2.0000E-02  ok   MIPS.24      BOL    0.000                      Luhman ApJ, 186:111   
+    60.4093  6.9000E-01  7.5900E-02  ok  IRAS.F60      BOL    9.000                      1988IRASP.C......0J  high_quality
+    70.0000  4.1000E-01  4.0000E-02  ok   MIPS.70      BOL    0.000                      Rebull ApJ, 186:259   
+   101.1190  2.0800E+00  2.0800E-01  ul  IRAS.F100     BOL    9.000                      1988IRASP.C......0J  upper_limit
+   450.0000  3.0400E-01  1.0130E-01  ul   generic      BOL    0.000                      Fluxes from SCUBA a  upper limit
+   850.0000  8.8000E-03  1.9000E-03  ok   generic      BOL    0.000                      Andrews et Williams  Fluxes from SCUBA archive. Ref:
+  1300.0000  2.5000E-02  8.3000E-03  ul   generic      BOL    0.000                      Beckwith et al. (19  upper limit
+63.18	0.43	0.05	ok	generic	BOL	NaN			Howard et al. Apj 776 2013	
+72.84	0.32	0.03	ok	generic	BOL	NaN			Howard et al. Apj 776 2013
+78.74	0.35	0.04	ok	generic	BOL	NaN			Howard et al. Apj 776 2013
+90.16	0.59	0.04	ok	generic	BOL	NaN			Howard et al. Apj 776 2013
+145.53	0.20	0.02	ok	generic	BOL	NaN			Howard et al. Apj 776 2013
+157.74	0.12	0.03	ok	generic	BOL	NaN			Howard et al. Apj 776 2013
+179.53	0.20	0.04	ok	generic	BOL	NaN			Howard et al. Apj 776 2013
+189.57	0.29	0.09	ul	generic	BOL	NaN			Howard et al. Apj 776 2013
+     0.3637  0.017939  0.0018  ok  JOHNSON.U     CCD    NaN   12.56       0.05  White and Ghiez 2001 Apj 556  -
+     0.4434  0.023883  0.0024  ok  JOHNSON.B     CCD    NaN   13.13       0.04  White and Ghiez 2001 Apj 556  -
+     0.5493  0.062505  0.0063  ok  JOHNSON.V     CCD    NaN   11.97    0.04  White and Ghiez 2001 Apj 556  -
+     0.6473  0.148782  0.0150  ok  COUSINS.R     CCD    NaN   10.79    0.02  White and Ghiez 2001 Apj 556  -
+     0.7875  0.290095  0.0290  ok  COUSINS.I     CCD    NaN    9.86    0.01  White and Ghiez 2001 Apj 556  -
+0.1535  0.000345  3.45E-05  ??  GALEX.FUV     CCD   NaN      17.58           Gomez de Castro 2015 ApJSS 216
+0.2301  0.000759  7.59E-05  ??  GALEX.NUV     CCD   NaN      16.78           Gomez de Castro 2015 ApJSS 216
+0.442	     0.03546	 0.0035	     ok	 JOHNSON.B     CCD    NaN			 APASS	 
+0.475	     0.04665	 0.0047      ok	 generic       CCD    NaN			 APASS
+0.540	     0.07711	 0.0077      ok	 JOHNSON.V     CCD    NaN			 APASS
+0.622	     0.11771	 0.0118	     ok	 generic       CCD    NaN			 APASS
+0.763	     0.26232	 0.0263	     ok	 generic       CCD    NaN			 APASS
+890	     0.0088	 0.0019	     ok	 generic       BOL    NaN			 Andrews 2013 J/ApJ/771/129/table2
+1300	     0.0034	 0.0017	     ok	 generic       BOL    NaN			 Andrews 2013 J/ApJ/771/129/table2
