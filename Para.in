@@ -1,4 +1,4 @@
-1.170000e+00 Mstar
+6.036795e-01 Mstar
 3.899000e+03 Teff
 4.000000e+00 Lstar
 2.691535e-02 fUV
@@ -15,7 +15,8 @@
 3.162278e-02 amin
 3.981072e+03 amax
 3.600000e+00 apow
+5.700000e-01 Mg0.7Fe0.3SiO3[s]
 1.800000e-01 amC-Zubko[s]
 3.162278e-02 fPAH
 5.000000e-01 PAH_charged
-    140.0000 Dist[pc]
+    100.0000 Dist[pc]
