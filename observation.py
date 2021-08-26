@@ -3,7 +3,7 @@
 from PyAstronomy import pyasl
 import numpy as np
 
-def load_observations(folder,data_file):
+def load_observations(folder,data_file,dereddening_data=False):
 
     with open(f'{folder}/extinct.dat') as f:
         lines=f.readlines()
@@ -59,8 +59,10 @@ def load_observations(folder,data_file):
     nu=2.99792458*10**14/data_array[:,0]
     data_array[:,1]=data_array[:,1]*10**(-23)*nu
     data_array[:,2]=data_array[:,2]*10**(-23)*nu
-    
-    # Deredden the spectrum
-    fluxUnred = pyasl.unred(data_array[:,0]*10**4, data_array[:,1], ebv=e_bv, R_V=R_V)
-    return data_array[:,0],fluxUnred,data_array[:,2],name_array # do we have to change sigma at the dereddening???
+    if dereddening_data:
+        # Deredden the spectrum
+        fluxUnred = pyasl.unred(data_array[:,0]*10**4, data_array[:,1], ebv=e_bv, R_V=R_V)
+    else:
+        fluxUnred=data_array[:,1]
+    return data_array[:,0],fluxUnred,data_array[:,2],name_array,e_bv,R_V # do we have to change sigma at the dereddening???
 
