@@ -19,4 +19,6 @@
 1.800000e-01 amC-Zubko[s]
 3.162278e-02 fPAH
 5.000000e-01 PAH_charged
-    100.0000 Dist[pc]
+    120.0000 Dist[pc]
+      0.2275 E(B-V)
+      3.1000 R(V)
