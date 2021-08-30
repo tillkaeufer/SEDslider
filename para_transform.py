@@ -22,9 +22,14 @@ def para_to_parameterin(input_file,output_file):
                 else:
                     for key in para_dict.keys():
                         if key in line:
-                            value=para_dict[key]
-                            new_line=f'%12.5e {line[idx:]}' %value
-                            break
+                            if key=='Rout':
+                                value=4*para_dict['Rtaper']
+                                new_line=f'%12.5e {line[idx:]}' %value
+
+                            else:
+                                value=para_dict[key]
+                                new_line=f'%12.5e {line[idx:]}' %value
+                                break
                         else:
                             new_line=line
             else:
