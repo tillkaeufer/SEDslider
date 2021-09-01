@@ -35,3 +35,29 @@ def chi_window(Fmod,Fphot,sphot,lphot):
     chi = np.sqrt(chi2/Nchi)        # total chi
     #print(' ==>  chi = %8.4f' % (chi))
     return chi
+
+def chi_squared(Fmod,Fphot,sphot,lphot):
+    #--------- compute chi properly --------
+
+    Ndat=len(Fphot)
+    chi2=0.0
+    for i in range(0,Ndat):
+        diff=Fphot[i]-Fmod[i]
+        chi2+=(diff/sphot[i])**2
+
+    chi = np.sqrt(chi2)        # total chi
+
+    return chi2
+
+def chi_squared_reduced(Fmod,Fphot,sphot,lphot):
+    #--------- compute chi reduced properly --------
+
+    Ndat=len(Fphot)
+    chi2=0.0
+    for i in range(0,Ndat):
+        diff=Fphot[i]-Fmod[i]
+        chi2+=(diff/sphot[i])**2
+    chi2=chi2/Ndat
+    chi = np.sqrt(chi2)        # total chi
+
+    return chi2
