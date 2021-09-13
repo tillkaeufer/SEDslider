@@ -1,12 +1,12 @@
-8.054751e-01 Mstar
+8.429909e-01 Mstar
 4.119397e+03 Teff
-1.210983e+00 Lstar
+6.990919e-01 Lstar
 9.122771e-03 fUV
 1.567722e+00 pUV
 1.122223e-02 Mdisk
 1.500000e+01 incl
 4.570882e-02 Rin
-8.912509e+01 Rtaper
+8.993732e+01 Rtaper
 3.597493e+02 Rout
 8.435816e-01 epsilon
 1.125769e+00 MCFOST_BETA
@@ -19,6 +19,6 @@
 2.785737e-01 amC-Zubko[s]
 5.179583e-03 fPAH
 7.716640e-01 PAH_charged
-    178.6320 Dist[pc]
+    123.6963 Dist[pc]
       0.2275 E(B-V)
       3.1000 R(V)
