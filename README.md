@@ -7,6 +7,7 @@ This repo contains a fast SED fitter via sliders. To use it you have to download
 - tensorflow (conda install -c conda-forge tensorflow)
 - joblib
 - pickle
+- sklearn
 
 For dereddening the data:
 - PyAstronomy
