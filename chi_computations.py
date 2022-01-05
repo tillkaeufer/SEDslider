@@ -49,6 +49,15 @@ def chi_squared(Fmod,Fphot,sphot,lphot):
 
     return chi2
 
+def log_like(Fmod,Fphot,sphot,lphot):
+    #--------- compute loglike properly --------
+    
+    chi2=chi_squared(Fmod,Fphot,sphot,lphot)
+    const=np.sum(np.log(2*np.pi*(sphot)**2))
+    loglikelihood =  -0.5 * (chi2 +const) #does sig_obs+sig_model account 
+
+    return loglikelihood
+
 def chi_squared_reduced(Fmod,Fphot,sphot,lphot):
     #--------- compute chi reduced properly --------
 

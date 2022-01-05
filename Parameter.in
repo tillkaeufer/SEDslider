@@ -4,11 +4,11 @@
 -------------------------------------------------------------
 
 ----- star and irradiation -----
- 6.03680e-01 ! Mstar       [Msun]  : to change #0
- 4.00000e+00 ! Lstar       [Lsun]  : to change from M and Age (#0,1)
- 3.89900e+03 ! Teff        [K]     : to change from M and Age (#0,1)
- 4.00000e+00 ! fUV         [-]     : LUV/Lstar #2 and #20
- 9.54993e-01 ! pUV         [-]     : UV powerlaw exponent #3 #19
+ 8.42991e-01 ! Mstar       [Msun]  : to change #0
+ 6.99092e-01 ! Lstar       [Lsun]  : to change from M and Age (#0,1)
+ 4.11940e+03 ! Teff        [K]     : to change from M and Age (#0,1)
+ 6.99092e-01 ! fUV         [-]     : LUV/Lstar #2 and #20
+ 1.56772e+00 ! pUV         [-]     : UV powerlaw exponent #3 #19
 .false.      ! Xrays       [-]     : no influence on PtoMC
 1.E+30      ! Xray_Lum    [erg/s] : no influence on PtoMC
 2.E+7       ! Xray_Temp   [K]     : no influence on PtoMC
@@ -16,24 +16,24 @@
 1.0         ! CHI_ISM     [-]     : always the same
 
 ------ dust parameters ------
- 3.16228e-02 ! amin : to change #4 #21
- 3.98107e+03 ! amax : to change #5 #18
- 3.60000e+00 ! apow : to change # 6 #29
+ 4.04315e-02 ! amin : to change #4 #21
+ 2.61132e+03 ! amax : to change #5 #18
+ 3.62415e+00 ! apow : to change # 6 #29
 2           ! settle_method       : always the same
- 1.00000e-03 ! a_settle : to change  # 8 #26
+ 5.06667e-04 ! a_settle : to change  # 8 #26
 0.8         ! hollow_sphere       : always the same
 dust_opacity_list2.txt            ! dust_opacity_list_file
 100         ! NSIZE               : number of dust size bins
 3           ! NDUST               : always the same
   0.531563344816479         Mg0.7Fe0.3SiO3[s]
- 1.00000e-03 amC-Zubko[s]
+ 5.06667e-04 amC-Zubko[s]
   0.25      vacuum[s]
 
 ------ PAH parameters ------
  1.50000e+01 ! PAH_in_RT            : are PAH opacities included in rad.trans.?
 .true.      ! PAH_from_RT         : PAH heating from cross-sections?
- 3.16228e-02 ! fPAH        [-]     : to change #9 #28
- 5.00000e-01 ! PAH_charged         : to change #10
+ 5.17958e-03 ! fPAH        [-]     : to change #9 #28
+ 7.71664e-01 ! PAH_charged         : to change #10
 
 ------ gas parameters ------
 0.2         ! ChemHeatFac [-]     : efficiency of chemical heating
@@ -51,14 +51,14 @@ onlyadd     ! handle_UMIST        : handle UMIST-data (erase/overwrite/onlyadd)
 1.E-02            ! dust_to_gas : fixed
 
 ------ outer zone -------	
- 4.29536e-02 ! Mdisk : to change #11 #30
+ 1.12222e-02 ! Mdisk : to change #11 #30
 .false.     ! soft_edges          : add confining boundary layers?
  4.57088e-02 ! Rin : to change #12 #17
- 8.91251e+01 ! Rtaper : to change #13 #25
- 8.91251e+01 ! Rout : 4 times Rtaper
- 1.00000e+00 ! epsilon : to change #14 #24
- 1.20000e+01 ! MCFOST_H0 : to change #15 #23
- 1.15000e+00 ! MCFOST_BETA : to change #16 #22
+ 8.99373e+01 ! Rtaper : to change #13 #25
+ 8.99373e+01 ! Rout : 4 times Rtaper
+ 8.43582e-01 ! epsilon : to change #14 #24
+ 8.82796e+00 ! MCFOST_H0 : to change #15 #23
+ 1.12577e+00 ! MCFOST_BETA : to change #16 #22
 
 
 ------ the big molecules -------------------------------
@@ -91,7 +91,7 @@ onlyadd     ! handle_UMIST        : handle UMIST-data (erase/overwrite/onlyadd)
 300         ! NlamSED           : number of lambda gridpoints
 0.01      ! lminSED           : minimum lambda[mic]
 13000.0     ! lmaxSED           : minimum lambda[mic]
- 1.20000e+02 ! dist      [pc]    : distance GAIA DR2
+ 1.23696e+02 ! dist      [pc]    : distance GAIA DR2
  1.50000e+01 ! incl      [deg]   : wolff+2016
 .false.     ! compute_visibilities
 
