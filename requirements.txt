@@ -1,0 +1,6 @@
+numpy
+tensorflow==2.3.0
+scikit-learn
+joblib==1.0.1
+matplotlib==3.4.2
+pyastronomy==0.16.0

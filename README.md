@@ -6,7 +6,7 @@ This repo contains a fast SED fitter via sliders. To use it you have to download
 - matplotlib (version 3.4.3 or higher) (conda install -c conda-forge matplotlib)
 - tensorflow (conda install -c conda-forge tensorflow)
 - joblib
-- pickle
+- scikit-learn
 
 For dereddening the data:
 - PyAstronomy
